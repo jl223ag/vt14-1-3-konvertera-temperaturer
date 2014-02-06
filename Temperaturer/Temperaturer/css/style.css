@@ -1,0 +1,66 @@
+﻿body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+h1{    
+    margin: 2% 0;
+}
+h1, form{
+    margin-left: 4%;
+    padding-left: 2%;
+}
+form{
+    border-left: 1px solid black;
+}
+h1{
+    width: 600px;
+    border-bottom: 20px solid gray;    
+}
+#TheBoard{
+    float: left;
+    padding: 1% 2%;
+    margin-left: 400px;
+    margin-top: -330px;
+    text-align: center;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px green;
+}
+#FirstBoard :nth-child(1), #SecondBoard :nth-child(1){
+    color: darkgreen;
+    font-size: 1.6em;
+}
+#FirstBoard, #SecondBoard{
+    float: left;
+
+}
+#SecondBoard{
+    margin-left: 50px;
+}
+#FirstBoard :nth-child(2), #SecondBoard :nth-child(2){
+    font-size: 1.4em;
+}
+
+input[type="text"], input[type="submit"]{
+    font-family: inherit;
+    font-size: inherit;
+    display: block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+#ConvertButton{
+    margin-top: 20px;
+    width: 140px;
+    height: 35px;
+}
+a{
+    background-color: yellow;
+    margin-left: 6%;
+    font-size: inherit;
+}
+#ErrorCode{
+    font-size: 1.5em;
+    margin-left: 6%;
+}
+.red{
+    color: red;
+}
